@@ -14,20 +14,31 @@ IMC em adultos Condição:
 - Acima de 40 Obsesidade Grave;
  */
 
-const peso = prompt("Digite o seu peso: ");
-const altura = prompt("Digite a sua altura: ");
-
-const imc = parseFloat(peso / Math.pow(altura, 2));
-
-if (imc < 18.5) {
-    alert("Seu IMC está abaixo do peso")
-} else if (imc >= 18.5 && imc < 25) {
-    alert("Peso normal")
-} else if (imc >= 25 && imc < 30) {
-    alert("Seu IMC está acima do peso")
-} else if (imc >= 30 && imc < 40) {
-    alert("Obeso")
-} else {
-    alert("Obesidade Grave")
-
+function calcularImc(peso, altura) {
+    return parseFloat(peso / Math.pow(altura, 2));
 }
+
+function classificarImc(imc) {
+    if (imc < 18.5) {
+        return alert("Seu IMC está abaixo do peso")
+    } else if (imc >= 18.5 && imc < 25) {
+        return alert("Peso normal")
+    } else if (imc >= 25 && imc < 30) {
+        return alert("Seu IMC está acima do peso")
+    } else if (imc >= 30 && imc < 40) {
+        return alert("Obeso")
+    } else {
+        return alert("Obesidade Grave")
+    }
+}
+
+
+function main(){
+    const peso = prompt("Digite o seu peso: ");
+    const altura = prompt("Digite a sua altura: ");
+
+    const imc = calcularImc(peso, altura);
+    alert(classificarImc(imc));
+}
+
+main();
