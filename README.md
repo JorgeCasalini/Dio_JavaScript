@@ -16,3 +16,5 @@ Explicação sobre como é possível criar, referênciar e utilizar classes e ob
 ### Arrays e Estruturas de Repetição em JavaScript
 Informações sobre estrutura de repetição utilizando o método "For", além de aulas e exemplos de como depurar uma aplicação com dois exemplos práticos, junto a isso como funciona os Arrays e como é possível utilizar em vários aspectos. 
 
+### Importação e Exportação com JavaScript
+Com o intuito de novo aprendizado sobre métodos de importar, foi utilizado "require" e "module.exports", método nativo do Node.js para levar informações de uma pasta a outra, em poucas linhas, além de demonstrar com exemplo prático sobre "Object Destructuring", que passando uma chave entorno do elemento, é possível descontruir ele, e atribuir novas informações
