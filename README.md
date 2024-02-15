@@ -23,4 +23,3 @@ Com o intuito de novo aprendizado sobre métodos de importar, foi utilizado "req
 Primeiro projeto com o uso de API apresentado, criando uma pokedex e listagem de pokemons, com o tipo, cor, imagem e detalhes sobre cada um.
  
 ### Dominando o Protocolo HTTP e Integrando com a PokeAPI
-Todo o conhecimento adquirindo anteriormente, é juntado e usado nessa integração com a API, e usando protocolos HTTP, conceitos de Promises e outros conceitos vistos anteriormente.
